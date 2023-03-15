@@ -1,4 +1,4 @@
-import "../styles/style.scss";
+//import "../styles/style.scss";
 import Wallet from "../components/wallet/Wallet";
 import { ToastContainer } from "react-toastify";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
