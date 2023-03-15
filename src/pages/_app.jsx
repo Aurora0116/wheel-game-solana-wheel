@@ -2,7 +2,6 @@ import "../styles/style.scss";
 import Wallet from "../components/wallet/Wallet";
 import { ToastContainer } from "react-toastify";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-
 function RaffleApp({ Component, pageProps }) {
   return (
     <Wallet>
@@ -17,5 +16,4 @@ function RaffleApp({ Component, pageProps }) {
     </Wallet>
   );
 }
-
 export default RaffleApp;
